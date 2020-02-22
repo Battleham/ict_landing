@@ -2,8 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <title>Ice Cream Technologies</title>
 </head>
 <body>
     <nav class="navbar">
@@ -12,13 +13,35 @@
     </nav>
     <div class="wrapper">
 
-        <div class="main-container">
+        <section class="main-container">
             <article class="main-article">
                 <h2>Welcome to Ice Cream Technologies</h2>
                 <p>The site is currently under construction, but feel free to fill out a contact form and we will be sure to get back to you!</p>
                 <p>Thank you for visiting!</p>
             </article>
-        </div>
+        <section class="main-article form">
+            <form method="post" action="#">
+                <div class="fields">
+                    <div class="field half">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" />
+                    </div>
+                    <div class="field half">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" />
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="6"></textarea>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Send Message" class="primary" /></li>
+                    <li><input type="reset" value="Clear" /></li>
+                </ul>
+            </form>
+        </section>
+    </section>
     </div>
     <div class="footer">
         <div class="flex-container" style="height: 330px">
