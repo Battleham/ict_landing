@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
-    /*background-image: url("./public/img/city-bg.jpg");*/
+    background-image: url("./public/img/city-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }   
